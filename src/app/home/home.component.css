@@ -1,0 +1,62 @@
+.background-container {
+  background-image: url('images/true.jpg'); /* Adjust the path */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-position-y: -20px; /* Optional: Adjust image position */
+  height: 100vh; /* Adjust to fill the viewport height */
+  position: relative; /* Set the background image as fixed */
+  top: 0; /* Stick it to the top */
+  left: 0; /* Stick it to the left */
+  width: 100%; /* Make it cover the entire width */
+}
+
+.form-container {
+  max-width: 400px;
+  margin: 150px auto 0; /* Adjust the margin-top only */
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgba(249, 249, 249, 0.5);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative; /* Set the position as relative */
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #444;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
